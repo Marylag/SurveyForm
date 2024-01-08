@@ -1,0 +1,89 @@
+body {
+    background-image: url(https://i.imgur.com/i06qsn4.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    color: #f5f6f7
+  }
+  
+  .survey {
+    width: 80%;
+    background-color: rgba(0, 0, 100, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  .gratitude {
+    font-style: italic;
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  .regular-text {
+    font-size: 16px;
+  }
+  
+  .small-text {
+    font-size: 13px;
+    color: #f5f6f7;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 1.5 0;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input[type="radio"], input[type="checkbox"]{
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #ffffff;
+    border: 1px solid #0a0a23;
+    color: #0a0a23;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #35b597;
+    border-color: none;
+    color: #f5f6f7;
+    min-width: 300px;
+  }
+  
+  input[type="file"] {
+    padding: 1px 2px;
+  }
